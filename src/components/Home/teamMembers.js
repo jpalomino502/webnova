@@ -134,7 +134,7 @@ const Member = () => {
 
   return (
     <div
-      className="relative bg-[#cdcdd0] min-h-screen text-[#141414] font-sans"
+      className="relative bg-[#cdcdd0] text-[#141414] font-sans"
       ref={ref}
     >
       <div className="absolute inset-0 overflow-hidden">

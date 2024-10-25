@@ -30,30 +30,30 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="relative bg-[#cdcdd0] min-h-screen text-[#141414] font-sans overflow-hidden">
+    <div className="relative bg-[#cdcdd0] text-[#141414] font-sans overflow-hidden flex justify-center">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/4 -left-1/4 w-1/2 h-1/2 bg-[#f74a1f] opacity-5 rounded-full blur-3xl"></div>
         <div className="absolute top-3/4 -right-1/4 w-1/2 h-1/2 bg-[#141414] opacity-5 rounded-full blur-3xl"></div>
         <div className="absolute top-1/4 left-3/4 w-1/4 h-1/4 bg-[#f74a1f] opacity-5 transform rotate-45 blur-2xl"></div>
       </div>
-      
-      <div className="relative z-10 container mx-auto px-8 py-16" ref={ref}> 
+
+      <div className="relative z-10 container mx-auto px-8 py-16" ref={ref}>
         <h2 className="text-5xl md:text-6xl font-extrabold mb-8 text-center">
           <span className="relative inline-block">
             Conoce a WebNova
             <span className="absolute -inset-1 bg-[#f74a1f] opacity-20 blur-lg"></span>
           </span>
         </h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center justify-center">
           <div className="space-y-6">
             <p className="text-xl leading-relaxed">
               En WebNova, una innovadora startup con sede en Bucaramanga, Colombia, reunimos a un equipo de estudiantes talentosos de la Universidad Autónoma de Bucaramanga (UNAB). Nos dedicamos a ofrecer soluciones tecnológicas personalizadas que impulsan a las empresas a alcanzar sus objetivos. Nuestra pasión por la innovación nos lleva a crear soluciones digitales únicas y escalables, combinando la experiencia de profesionales en Ingeniería, Economía, Negocios y Artes para proporcionar una visión multidisciplinaria en cada proyecto.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[ 
+            {[
               { icon: Code, title: "Código Vanguardista", description: "Liderando la transformación digital con tecnología de punta" },
               { icon: Zap, title: "Velocidad Imbatible", description: "Soluciones optimizadas para un rendimiento excepcional" },
               { icon: Globe, title: "Conexión Global", description: "Desarrollando experiencias digitales sin límites geográficos" },

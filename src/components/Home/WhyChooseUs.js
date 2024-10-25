@@ -16,14 +16,14 @@ const WhyChooseUs = () => {
       });
     });
 
-    const currentSection = sectionRef.current; // Store ref.current in a variable
+    const currentSection = sectionRef.current;
     if (currentSection) {
       observer.observe(currentSection);
     }
 
     return () => {
       if (currentSection) {
-        observer.unobserve(currentSection); // Use the stored variable in cleanup
+        observer.unobserve(currentSection);
       }
     };
   }, []);
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="relative min-h-screen lg:h-screen py-16 lg:py-0 mb-16 lg:mb-0">
+    <section ref={sectionRef} className="relative lg:h-screen py-16 lg:py-0 mb-16 lg:mb-0">
       <div
         className="absolute inset-0 opacity-20"
         style={{

@@ -163,7 +163,7 @@ export default function ResponsiveDemo() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4 flex flex-col items-center justify-center">
+    <div className="bg-gray-100 p-4 flex flex-col items-center justify-center">
       <div className="bg-white rounded-lg shadow-xl overflow-hidden max-w-6xl w-full">
         {isMobileOrTablet && (
           <div className="bg-red-600 text-white text-center p-4 rounded-lg mb-4">

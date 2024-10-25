@@ -30,7 +30,7 @@ const WebDesignPortfolio = () => {
   }, []);
 
   return (
-    <div className="relative bg-[#1a1a1a] min-h-screen text-[#ffffff] font-sans overflow-hidden">
+    <div className="relative bg-[#1a1a1a] text-[#ffffff] font-sans overflow-hidden">
       <div className="container mx-auto px-8 py-24" ref={ref}>
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-12 text-center relative"

@@ -32,7 +32,7 @@ const WebDevelopmentPortfolio = () => {
   }, []);
 
   return (
-    <div className="relative bg-[#cdcdd0] min-h-screen text-[#141414] font-sans overflow-hidden">
+    <div className="relative bg-[#cdcdd0] text-[#141414] font-sans overflow-hidden">
       {/* Luces de fondo */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/4 -left-1/4 w-1/2 h-1/2 bg-[#f74a1f] opacity-5 rounded-full blur-3xl"></div>
