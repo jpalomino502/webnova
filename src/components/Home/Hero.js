@@ -79,7 +79,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="text-xl md:text-2xl mb-12 max-w-3xl">
-          WebNova: Creando experiencias web revolucionarias que impulsan tu negocio hacia el futuro.
+          Creando experiencias web revolucionarias que impulsan tu negocio hacia el futuro.
         </p>
 
         <button 

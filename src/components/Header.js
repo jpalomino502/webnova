@@ -13,12 +13,12 @@ const Header = () => {
               alt="WebNova Logo" 
               width="48"
               height="48"
-              className="mr-3 filter brightness-200"
+              className="mr-3"
             />
           </Link>
           <div className="text-3xl font-bold">
             <span className="text-[#f74a1f]">Web</span>
-            <span className="text-[#cdcdd0] filter brightness-200">Nova</span>
+            <span className="text-[#cdcdd0] ">Nova</span>
           </div>
         </div>
       </div>

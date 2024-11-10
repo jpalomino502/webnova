@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="relative lg:h-screen py-16 lg:py-0 mb-16 lg:mb-0">
+    <section ref={sectionRef} className="relative py-16 md:py-24 mx-auto px-4">
       <div
         className="absolute inset-0 opacity-20"
         style={{

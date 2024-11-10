@@ -48,8 +48,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center justify-center">
           <div className="space-y-6">
             <p className="text-xl leading-relaxed">
-              En WebNova, una innovadora startup con sede en Bucaramanga, Colombia, reunimos a un equipo de estudiantes talentosos de la Universidad Autónoma de Bucaramanga (UNAB). Nos dedicamos a ofrecer soluciones tecnológicas personalizadas que impulsan a las empresas a alcanzar sus objetivos. Nuestra pasión por la innovación nos lleva a crear soluciones digitales únicas y escalables, combinando la experiencia de profesionales en Ingeniería, Economía, Negocios y Artes para proporcionar una visión multidisciplinaria en cada proyecto.
-            </p>
+            En WebNova, una startup innovadora en Bucaramanga, reunimos a estudiantes talentosos. Ofrecemos soluciones tecnológicas personalizadas que impulsan a las empresas. Nuestra pasión por la innovación nos permite crear soluciones digitales únicas y escalables, combinando diversas disciplinas para brindar una visión integral en cada proyecto.            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

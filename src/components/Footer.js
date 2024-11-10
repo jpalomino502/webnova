@@ -26,6 +26,9 @@ const Footer = () => {
             height="128"
             className="w-32 h-auto" 
             aria-label="Ir al inicio de la página de WebNova"
+            loading="lazy"
+            style={{ opacity: 0 }}
+            onLoad={(e) => e.currentTarget.style.opacity = 1}
           />
         </motion.div>
 
@@ -50,7 +53,7 @@ const Footer = () => {
             <span className="sr-only">LinkedIn</span>
           </motion.a>
           <motion.a
-            href="https://www.instagram.com/teamwebnova/?utm_source=ig_web_button_share_sheet"
+            href="https://www.instagram.com/webnova_co/?utm_source=ig_web_button_share_sheet"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative"

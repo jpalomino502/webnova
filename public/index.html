@@ -3,26 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="WebNova ofrece soluciones tecnológicas personalizadas en Bucaramanga, Colombia." />
-    <meta name="keywords" content="WebNova, soluciones tecnológicas, Bucaramanga, desarrollo web, aplicaciones móviles, Firebase, Python, JavaScript, HTML, CSS, Kotlin, MySQL, PHP, React.js, Next.js" />
+    <meta name="description" content="En WebNova, ofrecemos soluciones tecnológicas personalizadas en Bucaramanga, Colombia, para impulsar tu negocio. Desarrollamos sitios web, aplicaciones móviles y estrategias de marketing digital." />
+    <meta name="keywords" content="WebNova, soluciones tecnológicas, Bucaramanga, desarrollo web, aplicaciones móviles, marketing digital, Firebase, Python, JavaScript, HTML, CSS, Kotlin, MySQL, PHP, React.js, Next.js" />
     <meta name="author" content="WebNova" />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="WebNova - Soluciones Tecnológicas Personalizadas" />
-    <meta property="og:description" content="WebNova ofrece soluciones tecnológicas personalizadas en Bucaramanga, Colombia." />
+    <meta property="og:title" content="WebNova - Innovación en Soluciones Tecnológicas" />
+    <meta property="og:description" content="Impulsa tu negocio con WebNova. Soluciones tecnológicas en Bucaramanga: desarrollo web, aplicaciones móviles y marketing digital." />
     <meta property="og:image" content="https://webnova.com.co/og-image.jpg" />
     <meta property="og:url" content="https://webnova.com.co" />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="WebNova - Soluciones Tecnológicas Personalizadas" />
-    <meta name="twitter:description" content="WebNova ofrece soluciones tecnológicas personalizadas en Bucaramanga, Colombia." />
-    <meta name="twitter:image" content="https://webnova.com.co/twitter-image.jpg" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
+
+    <!-- Preload de la fuente Poppins -->
     <link rel="preload" href="https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedA.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet" />
-    
+
+    <!-- Incluir CSS crítico -->
+    <style>
+      /* CSS crítico aquí */
+      body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      /* Otros estilos esenciales pueden ir aquí */
+    </style>
+
+    <!-- Cargar la fuente de manera asíncrona -->
+    <script>
+      WebFontConfig = {
+        google: { families: ['Poppins:wght@400'] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = true;
+        document.getElementsByTagName('head')[0].appendChild(wf);
+      })();
+    </script>
+
     <title>WebNova - Soluciones Tecnológicas en Bucaramanga, Colombia</title>
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- Carga diferida del CSS no crítico -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/index.css" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="%PUBLIC_URL%/index.css">
+    </noscript>
+
+    <!-- La carga de JavaScript se maneja automáticamente en el bundler -->
   </body>
 </html>
