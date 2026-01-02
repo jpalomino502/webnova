@@ -72,7 +72,7 @@ export default function Footer() {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
-        <p className="text-white text-sm">© 2024 WebNova. Todos los derechos reservados.</p>
+        <p className="text-white text-sm">© 2026 WebNova. Todos los derechos reservados.</p>
         <p className="text-white text-xs mt-3 md:mt-0">Desarrollado por WebNova</p>
       </div>
     </footer>
