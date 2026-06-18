@@ -168,7 +168,7 @@ export default function Projects() {
       imagen: ChefSync,
       tecnologias: ["Next.js", "Firebase", "Node.js"],
       enlace: "/proyectos/chefsync",
-      urlIframe: "https://chefsync.co",
+      urlIframe: "https://chefsync.app",
       destacado: true,
     },
     {
